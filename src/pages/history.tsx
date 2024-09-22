@@ -30,7 +30,7 @@ function History() {
     <div className="md:w-[40rem] mt-10">
       <p className="text-center text-gray-700">Your Search History</p>
 
-      <div className=" mt-5 border rounded-md overflow-hidden bg-white">
+      <div className=" mt-5 border rounded-md overflow-auto h-[calc(100dvh-250px)] min-h-[200px] bg-white">
         <div className="bg-gray-300">
           <p className="pl-4 py-2 inline-block w-1/2">Search Term</p>
           <p className="inline-block w-1/2">Search Results</p>
