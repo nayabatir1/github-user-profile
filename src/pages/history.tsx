@@ -24,10 +24,8 @@ function History() {
     setUsersData(undefined);
   }, []);
 
-  console.log(usersData);
-
   return (
-    <div className="md:w-[40rem] mt-10">
+    <div className="w-full md:w-[40rem] px-5 mt-10">
       <p className="text-center text-gray-700">Your Search History</p>
 
       <div className=" mt-5 border rounded-md overflow-auto h-[calc(100dvh-250px)] min-h-[200px] bg-white">

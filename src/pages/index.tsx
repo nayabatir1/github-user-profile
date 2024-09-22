@@ -51,10 +51,10 @@ function Home() {
   });
 
   return (
-    <div className="md:w-96 mt-10">
+    <div className="w-full md:w-96 mt-10 px-5">
       <p className="text-center">Search Github User</p>
 
-      <div className="w-full flex items-center gap-2 bg-white px-3 py-1 mt-5 border rounded-sm border-gray-300 mb-5">
+      <div className="flex items-center gap-2 bg-white px-3 py-1 mt-5 border rounded-sm border-gray-300 mb-5">
         <FaMagnifyingGlass color="gray" />
         <form onSubmit={onSubmit} className="grow">
           <input
